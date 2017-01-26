@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Oscar",
+    "Trophy": [
+      { "category": "Best Actor", "name": "Eddie Redmayne", "year": 2015 },
+      { "category": "Best Actor", "name": "Leonardo DiCaprio", "year": 2016 }
+    ]
+  },
+  {
+    "name": "Emmy",
+    "Trophy": [
+      { "category": "Outstanding Lead Actor", "name": "Jon Hamm", "year": 2015 },
+      { "category": "Outstanding Lead Actor", "name": "Rami Malek", "year": 2016 }
+    ]
+  }
+]

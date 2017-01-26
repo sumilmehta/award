@@ -1,0 +1,18 @@
+<h3>{{awardCtrl.award.name}} Oscar</h3>
+
+<table class="table">
+  <thead>
+    <th>Year</th>
+    <th>category</th>
+    <th>Name</th>
+  </thead>
+  <tbody>
+    <tr ng-repeat="trophy in awardCtrl.award.Trophy">
+      <td>{{trophy.year}}</td>
+      <td>{{trophy.category}}</td>
+      <td>{{trophy.name}}</td>
+    </tr>
+  </tbody>
+</table>
+
+<a class="btn" ui-sref="awards.new({awardName: awardCtrl.award.name})">New Trophy</a>

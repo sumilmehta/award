@@ -1,0 +1,25 @@
+<form class="form" name="newTrophyForm" ng-submit="newTrophyCtrl.saveTrophy(trophy)"/>
+
+  <h3 class="mbm">New Trophy for {{newTrophyCtrl.awardName}}</h3>
+
+  <div class="form-field">
+    <label class="form-label" for="category">Category:</label>
+    <input class="form-input" id="category" required ng-model="award.category"/>
+  </div>
+
+  <div class="form-field">
+    <label class="form-label" for="name">Name:</label>
+    <input class="form-input" id="name" required ng-model="award.name"/>
+  </div>
+
+  <div class="form-field">
+    <label class="form-label" for="year">Year:</label>
+    <select class="form-select" id="year" required ng-model="award.year">
+      <option value="2015">2015</option>
+      <option value="2016">2016</option>
+    </select>
+  </div>
+
+  <input class="btn" type="submit" value="Submit" />
+
+</form>

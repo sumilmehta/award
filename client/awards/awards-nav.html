@@ -1,0 +1,19 @@
+<div class="cell">
+  <div class="awards-list">
+    <ul class="grid list list--unstyled mbl" ng-cloak>
+      <li class="grid-box grid-box--6of12 award-name" ng-repeat="award in awardsCtrl.awards">
+        <div class="card" ng-class="{'is-active': awardsCtrl.isActive(award)}">
+          <h2 class="card-title">
+
+            <a class="card-link card-link--{{ award.toLowerCase() }}" ui-sref="awards.trophy({ awardName: award })">
+              {{ award }}
+            </a>
+
+          </h2>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="awards-info"  ui-view></div>
