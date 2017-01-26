@@ -1,6 +1,6 @@
 {
   "name": "mean",
-  "version": "1.0.0",
+  "version": "3.10.9",
   "description": "* Express * MongoDB",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
     "angular": "^1.4.9",
     "angular-ui-router": "^0.2.17",
     "body-parser": "^1.14.2",
-    "express": "^4.13.4",
+    "express": "^4.14.0",
     "mongodb": "^2.1.4"
   },
   "devDependencies": {
